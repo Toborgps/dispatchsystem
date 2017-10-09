@@ -1,0 +1,40 @@
+.person {
+  width: 150px;
+  display: inline-flex;
+  vertical-align: top;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.person img {
+  border-radius: 100%;
+  width: 95%;
+  height: 95%;
+}
+
+.person-text {
+  width: 84.99%;
+  display: inline-flex;
+  vertical-align: top;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.person-text h5 {
+  min-width: 12%;
+  padding-right: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+.person-text p {
+  font-size: 18px;
+  font-weight: 300;
+  width: -10px;
+  padding-left: 10px;
+  height: inherit;
+  border-left: 1px solid #ffffff;
+}
+
+.content {
+  display: block;
+  width: inherit;
+  height: inherit;
+}

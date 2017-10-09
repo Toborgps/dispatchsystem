@@ -1,0 +1,44 @@
+.hero-btn {
+  border-radius: 0;
+  font-size: 24px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  transition-duration: .5s;
+  margin: 0 20px;
+}
+.hero-btn:hover {
+  background: #fff;
+  color: #3F87FF;
+  border-radius: 35px;
+}
+
+.hero {
+  color: #fff;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 36px;
+}
+.hero p {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 45px;
+}
+
+.teaser a:hover h3, .teaser a:hover h4 {
+  text-decoration: underline;
+  color: #a0a0a0;
+}
+.teaser img {
+  width: 90%;
+  border-radius: 0px;
+  display: block;
+  padding-bottom: 20px;
+  transition-duration: .5s;
+  margin: auto;
+}
+.teaser img:hover {
+  width: 100%;
+}

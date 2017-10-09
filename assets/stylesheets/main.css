@@ -1,0 +1,231 @@
+/* Roboto font @ Google! */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
+
+/*
+  GRIDS
+  ROWS
+  BODY
+*/
+body {
+  background: #3F87FF;
+  color: #FBFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: none;
+}
+p {
+    line-height: 30px;
+}
+b {
+  font-weight: 700;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 1080px;
+}
+.container {
+  padding-left: 30px;
+  padding-right; 30px;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-1-3,
+.col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3{
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+.row {
+  background: #0054A5;
+  width: 100%;
+  min-width: 960px;
+  min-height: 180px;
+  padding: 20px 0 20px 0;
+}
+
+/*
+  CLEARFIX
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  TYPOGRAPHY
+*/
+
+h1, h2, h3, h4 {
+  color: #fff;
+}
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+strong {
+  font-weight: 400;
+}
+cite,
+em {
+  font-style: italic;
+}
+
+/*
+  LINKS
+*/
+
+a {
+  color: #FFFFFF;
+}
+a:hover {
+  color: #a9b2b9;
+  text-decoration: none;
+}
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+
+/*
+  BUTTONS
+*/
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+.btn-default {
+  border: 0;
+  background: #0054A5;
+  padding: 10px 20px;
+  margin: 0 -5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.btn-default:hover {
+  background: #ffffff;
+  color: #0054A5;
+}
+.nav-btn {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  margin: 0 -5px;
+  font-weight: 700;
+}
+.nav-btn:hover {
+  background: #fff;
+  color: #3F87FF;
+}
+
+/*
+  PRIMARY HEADER
+*/
+
+.logo {
+  float: left;
+  font-size: 48px;
+  font-weight: 200;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+}
+.logo a {
+  color: #000000;
+  text-decoration: none;
+}
+.tagline {
+  margin: 66px 0 22px 0;
+  text-align: right;
+}
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+/*
+  PRIMARY FOOTER
+*/
+
+.primary-footer {
+  color: #ffffff;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+}
+
+/*
+  NAV
+*/
+
+.nav {
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
