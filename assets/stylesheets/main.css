@@ -32,11 +32,12 @@ b {
 .container,
 .grid {
   margin: 0 auto;
-  width: 1080px;
+  min-width: 520px;
+  width: 80%;
 }
 .container {
   padding-left: 30px;
-  padding-right; 30px;
+  padding-right: 30px;
 }
 .grid,
 .col-1-3,

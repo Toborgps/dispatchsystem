@@ -32,13 +32,16 @@
   color: #a0a0a0;
 }
 .teaser img {
-  width: 90%;
-  border-radius: 0px;
-  display: block;
   padding-bottom: 20px;
-  transition-duration: .5s;
-  margin: auto;
+  width: 100%;
 }
-.teaser img:hover {
+
+.teaser {
+  transition-duration: .6s;
+  margin: auto;
+  width: 70%;
+  vertical-align: top;
+}
+.teaser:hover {
   width: 100%;
 }
